@@ -1,0 +1,73 @@
+/* General page styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 0;
+    z-index: 1000;
+    transition: background-color 0.3s;
+}
+
+/* Menu styling */
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+    .menu li {
+        margin: 0 15px;
+    }
+
+        .menu li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 15px;
+            transition: color 0.3s, background-color 0.3s;
+        }
+
+            /* Hover effect on menu items */
+            .menu li a:hover {
+                background-color: #555;
+                color: #fff;
+                border-radius: 5px;
+            }
+
+/* Section styling */
+section {
+    padding: 100px 20px;
+    margin-top: 70px; /* Add space to avoid overlapping with the navbar */
+    height: 600px;
+}
+
+#home {
+    background-color: lightblue;
+}
+
+#about {
+    background-color: lightcoral;
+}
+
+#services {
+    background-color: lightgreen;
+}
+
+#contact {
+    background-color: lightgoldenrodyellow;
+}
+
+/* Change navbar background when scrolled */
+.navbar.scrolled {
+    background-color: #222;
+}

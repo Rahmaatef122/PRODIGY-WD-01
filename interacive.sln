@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interacive", "interacive\interacive.csproj", "{712CCDA2-2CB3-45FE-B30B-1AE6EED42AEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{712CCDA2-2CB3-45FE-B30B-1AE6EED42AEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{712CCDA2-2CB3-45FE-B30B-1AE6EED42AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{712CCDA2-2CB3-45FE-B30B-1AE6EED42AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{712CCDA2-2CB3-45FE-B30B-1AE6EED42AEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72939631-F6A7-4BAC-BF5A-4B04101305C1}
+	EndGlobalSection
+EndGlobal
